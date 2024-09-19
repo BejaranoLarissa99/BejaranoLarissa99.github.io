@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2</title>
+</head>
+<body>
+    <h1>Formulario de registro de calificaciones</h1>
+    <form action="practica2.php" method="POST">
+        <label for="">Nombre del alumno:</label>
+        <input type="text" name="nombre" value="Larissa">&nbsp;
+
+        <label for="">Fecha:</label>
+        <input type="date" name="fecha">
+
+        <label for="">Num. control:</label>
+        <input type="num_control" value="22325061070469">&nbsp;
+
+        <h2>Captura las calificaciones</h2>
+        <table border="1">
+            <tr>
+                <td>Materia<br></td>
+                <td>Califiaciones<br></td>
+                <td>Maestros<br></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="materias" value="Fisica"></td>
+                <td><input type="number" name="calificaciones" value="10"></td>
+                <td><input type="text" name="maestros" value="Marisela Garcia"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="materias" value="Inglés"></td>
+                <td><input type="number" name="calificaciones" value="10"></td>
+                <td><input type="text" name="maestros" value="David franco"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="materias" value="CSyV"></td>
+                <td><input type="number" name="calificaciones" value="10"></td>
+                <td><input type="text" name="maestros" value="Lourdes Zuñiga"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="materias" value="Construye base de datos"></td>
+                <td><input type="number" name="calificaciones" value="9.2"></td>
+                <td><input type="text" name="maestros" value="Luis Santillan"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="materias" value="Cálculo Integral"></td>
+                <td><input type="number" name="calificaciones" value="9.4"></td>
+                <td><input type="text" name="maestros" value="Ulises Gallardo"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="materias" value="Desarrollo de apliaciones web"></td>
+                <td><input type="number" name="calificaciones" value="9"></td>
+                <td><input type="text" name="maestros" value="Jorge Ibarra"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

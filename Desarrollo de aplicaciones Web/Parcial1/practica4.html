@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen en línea</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <form action="practica4.php" method="POST">
+            <div class="row">
+                <h1 style="color:rgb(173, 25, 95)">Exámen de anatomía</h1><hr>
+
+                    <div class="card mb-4">
+                        <div style="color:rgb(175, 16, 90)" class="card-header">
+                        <h3>1. ¿Cuántos huesos tiene el cuerpo humano?</h3>
+                        </div>
+                        <div style="color:rgb(185, 24, 91)" class="card-body">
+                            <p><input type="radio" name="pregunta1" value="206" required> 206 </p>
+                            <p><input type="radio" name="pregunta1" value="260" required> 260 </p>
+                            <p><input type="radio" name="pregunta1" value="305" required> 305 </p>
+                        </div>
+                    </div><br><br>
+
+                    <div style="color:rgb(175, 16, 90)" class="card p-4 mb-4">
+                        <p>
+                            <h3>2. <input type="text" name="pregunta2" required> es el hueso más largo del cuerpo.</h3>
+                        </p>
+                    </div><br><br>
+
+                    <div style="color:rgb(175, 16, 90)" class="card mb-4">
+                        <div class="card-header">
+                        <h3>3. Tipos de glóbulos que existen en la sangre(2 respuestas).</h3>
+                        </div>
+                        <div class="card-body">
+                            <p><input type="checkbox" name="pregunta3[]" value="Azules" > Azules </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="Rojos" > Rojos </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="Blancos" > Blancos </p>
+                        </div>
+                    </div><br><br>
+
+                    <div class="card p-4 mb-4"></div>
+                        <p>
+                           <h3 style="color:rgb(175, 16, 90)">4. <input type="text" name="pregunta4" required> es el órgano más grande del cuerpo.</h3>
+                        </p>
+                    </div><br><br>
+
+                    <div style="color:rgb(175, 16, 90)" class="card mb-4">
+                        <div class="card-header">
+                        <h3>5. ¿Cuántos músculos tiene el cuerpo humano?</h3>
+                        </div>
+                        <div  style="color:rgb(175, 16, 90)"class="card-body">
+                            <p><input type="radio" name="pregunta5" value="640" required> 640 </p>
+                            <p><input type="radio" name="pregunta5" value="655" required> 655 </p>
+                            <p><input type="radio" name="pregunta5" value="305" required> 305 </p>
+                        </div>
+                    </div><br><br>
+
+                    <div class="card p-4 mb-4"></div>
+                        <p>
+                           <h3 style="color:rgb(175, 16, 90)">6. <input type="text" name="pregunta6" required> no tienen músculos ya que so controlados por tendones.</h3>
+                        </p>
+                    </div><br><br>
+
+                    <div class="card mb-4"></div>
+                        <div style="color:rgb(175, 16, 90)" class="card-header">
+                        <h3>7. Menciona los músculos que se encuentran en la cara(2 respuestas).</h3>
+                        </div>
+                        <div style="color:rgb(175, 16, 90)" class="card-body">
+                            <p><input type="checkbox" name="pregunta7[]" value="platisma" > Platisma </p>
+                            <p><input type="checkbox" name="pregunta7[]" value="frontal" > Frontal </p>
+                            <p><input type="checkbox" name="pregunta7[]" value="sacro" > Sacro </p>
+                        </div>
+                    </div><br><br>
+
+                    <div class="card p-4 mb-4"></div>
+                        <p>
+                           <h3 style="color:rgb(175, 16, 90)">8. <input type="text" name="pregunta8" required> filtran hasta 190 litros de sangre al día.</h3>
+                        </p>
+                    </div><br><br>
+
+                    <div class="card mb-4"></div>
+                        <div style="color:rgb(175, 16, 90)" class="card-header">
+                        <h3>9. Tipos de sabores que percibe la lengua humana(2 respuestas).</h3>
+                        </div>
+                        <div style="color:rgb(175, 16, 90)" class="card-body">
+                            <p><input type="checkbox" name="pregunta9[]" value="dulce" > Dulce </p>
+                            <p><input type="checkbox" name="pregunta9[]" value="acido" > Ácido </p>
+                            <p><input type="checkbox" name="pregunta9[]" value="picante" > Picante </p>
+                        </div>
+                    </div><br><br>
+
+                    <div class="card mb-4"></div>
+                        <div style="color:rgb(175, 16, 90)" class="card-header">
+                        <h3>10. ¿Cuántos vertebras tiene la columna?</h3>
+                        </div>
+                        <div style="color:rgb(175, 16, 90)" class="card-body">
+                            <p><input type="radio" name="pregunta5" value="37" required> 37 </p>
+                            <p><input type="radio" name="pregunta5" value="35" required> 35 </p>
+                            <p><input type="radio" name="pregunta5" value="33" required> 33 </p>
+                        </div>
+                    </div><br><br>
+
+
+            </div>
+            <br><input style="color:rgb(175, 16, 90)" type="submit" class="btn btn-primary" value="Terminar examen">
+        </form>
+    </div>
+</body>
+</html>
